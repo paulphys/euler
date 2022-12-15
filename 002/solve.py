@@ -4,4 +4,5 @@ while x <= 4*10**6:
     if x % 2 == 0:
         ans += x
     x, y = y, x + y
+
 print(ans)
